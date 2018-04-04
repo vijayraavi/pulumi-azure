@@ -1,0 +1,3 @@
+name: acs-kubernetes
+runtime: nodejs
+description: Deployment of Kubernetes cluster in the Azure Container Service https://github.com/terraform-providers/terraform-provider-azurerm/tree/master/examples/acs-kubernetes
