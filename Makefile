@@ -11,7 +11,7 @@ PROVIDER        := pulumi-resource-${PACK}
 VERSION         := $(shell scripts/get-version)
 PYPI_VERSION    := $(shell scripts/get-py-version)
 
-TESTPARALLELISM := 1
+TESTPARALLELISM := 20
 
 # Set NOPROXY to true to skip GOPROXY on 'ensure'
 NOPROXY := false
